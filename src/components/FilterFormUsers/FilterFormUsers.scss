@@ -1,0 +1,29 @@
+.container {
+  text-align: center;
+  margin: 30px;
+  border: solid 80px rgb(169, 184, 240);
+
+  .container_form {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+
+    input {
+    margin: 0 auto;
+    padding: 20px 30px 6px 30px;
+    border: 1px solid rgba(233, 107, 107, 0.2);
+    border-radius: 5px;
+    background: rgba(114, 84, 236, 0.5); 
+    box-shadow: 0 0 13px 3px rgba(105, 231, 119, 0.5);
+    margin-top: 20px;
+    }
+  }
+  .list_users {
+    list-style: none;
+      border: solid 2px rgb(66, 4, 159);
+      padding: 20px;
+
+  }
+}
